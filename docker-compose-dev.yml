@@ -19,4 +19,4 @@ services:
       SENTRY_DNS: ${SENTRY_DNS}
       PERPETUAL_PRIVATE_KEY: ${PERPETUAL_PRIVATE_KEY}
       PERPETUAL_REFERRAL_CODE: ${PERPETUAL_REFERRAL_CODE}
-    command: yarn start:dev
+    command: yarn start:test
